@@ -1,12 +1,17 @@
 import Link from "next/Link";
-
+import  {useRouter} from 'next/router'
 function ErrorPage() {
+    const router=useRouter();
+    
     return ( 
         <>
     <h3>ERROR PAGE</h3>
-    <Link href='/blog'> 
-    <button> BACK TO HOME</button>
-     </Link>
+    
+    <a onClick={()=>router.push('/')}>
+
+    <button > BACK TO HOME</button>
+    </a>
+     
         </>
      );
 }
