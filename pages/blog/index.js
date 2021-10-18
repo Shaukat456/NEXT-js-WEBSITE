@@ -1,6 +1,10 @@
+import Link from 'next/Link'
+
 function Blog() {
     return (
-        <h1>welcome to my blog</h1>
+        <>
+     <h1>WELCOME TO  THE HOME PAGE</h1>
+        </>
       );
 }
 

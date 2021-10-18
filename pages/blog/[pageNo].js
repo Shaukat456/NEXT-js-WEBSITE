@@ -9,7 +9,7 @@ function DynamicRoutes() {
     return (  
         <>
        <h1>     
-           blog no { pageNumber} content
+           {/* blog no { pageNumber} content */}
            </h1> 
        
         </>

@@ -1,5 +1,5 @@
-function blog2() {
-    return ( <h1>blog </h1>  );
+function b2() {
+    return ( <h1>blog  2</h1>  );
 }
 
-export default blog2;
+export default b2;
